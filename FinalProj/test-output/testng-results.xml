@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29692" started-at="2022-04-30T12:22:43Z" finished-at="2022-04-30T12:23:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29692" started-at="2022-04-30T12:22:43Z" finished-at="2022-04-30T12:23:12Z">
+      <class name="tests.RegistrationSuccess">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:tests.RegistrationSuccess@1a8622]" name="preCondition" is-config="true" duration-ms="9234" started-at="2022-04-30T12:22:43Z" finished-at="2022-04-30T12:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="verifyRegistration(java.lang.String, java.lang.String)[pri:0, instance:tests.RegistrationSuccess@1a8622]" name="verifyRegistration" duration-ms="4696" started-at="2022-04-30T12:22:52Z" finished-at="2022-04-30T12:22:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[halleyna0000@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistration -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:tests.RegistrationSuccess@1a8622]" name="postCondition" is-config="true" duration-ms="1294" started-at="2022-04-30T12:22:57Z" finished-at="2022-04-30T12:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- tests.RegistrationSuccess -->
+      <class name="tests.LoginSuccess">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:tests.LoginSuccess@d851c9]" name="preCondition" is-config="true" duration-ms="9331" started-at="2022-04-30T12:22:58Z" finished-at="2022-04-30T12:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="verifyLoginWithRegisteredUser(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginSuccess@d851c9]" name="verifyLoginWithRegisteredUser" duration-ms="4153" started-at="2022-04-30T12:23:07Z" finished-at="2022-04-30T12:23:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[halleyna0000@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithRegisteredUser -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:tests.LoginSuccess@d851c9]" name="postCondition" is-config="true" duration-ms="934" started-at="2022-04-30T12:23:12Z" finished-at="2022-04-30T12:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- tests.LoginSuccess -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
